@@ -27,7 +27,7 @@ An automated Python script that captures screenshots intermittently, uses Mistra
 
 1. **Clone or download the script**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ThomsenDrake/screen-capture-ocr.git
    cd screen-cap-ocr
    ```
 
@@ -37,15 +37,15 @@ An automated Python script that captures screenshots intermittently, uses Mistra
    ```
 
 3. **Set up your API key** (choose one method):
-   
-   **Option A: Environment Variable**
+
+   **Option A: .env File (recommended)**
+   ```bash
+   cp .env.example .env
+   ```
+
+   **Option B: Environment Variable**
    ```bash
    export MISTRAL_API_KEY="your-api-key-here"
-   ```
-   
-   **Option B: .env File**
-   ```bash
-   echo "MISTRAL_API_KEY=your-api-key-here" > .env
    ```
    
    **Option C: Command Line**
