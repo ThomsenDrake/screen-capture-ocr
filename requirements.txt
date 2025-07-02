@@ -1,0 +1,22 @@
+# Core dependencies - required for basic functionality
+mistralai>=1.0.0
+mss>=9.0.0
+Pillow>=10.0.0
+
+# Optional dependencies - enhance functionality
+python-dotenv>=1.0.0
+pywinctl>=0.0.50
+pyautogui>=0.9.54
+imagehash>=4.3.1
+
+# Legacy window management (fallback)
+pygetwindow==0.0.9
+
+# Note: tkinter is included with most Python installations
+# If tkinter is not available, install python3-tk (Linux) or ensure Python was installed with tkinter support
+
+# macOS specific notes:
+# - Preview window is disabled on macOS due to threading restrictions  
+# - PyWinCtl is recommended over PyGetWindow for better macOS support
+# - Native AppleScript window detection implemented as fallback
+# - Requires Screen Recording permissions in System Settings > Privacy & Security
