@@ -147,7 +147,7 @@ Pauses before final deduplication, allowing you to review raw captured data.
 ### macOS Permissions
 If you get permission errors:
 1. Go to System Preferences → Security & Privacy → Screen Recording
-2. Add Terminal (or your terminal app) to the allowed apps
+2. Add Terminal (or your IDE) to the allowed apps
 3. Restart your terminal
 
 ### OCR Not Working
